@@ -24,7 +24,6 @@ if arquivo is not None:
     try:
         df = pd.read_csv(arquivo)
 
-        # Verifica se alguma das variações de 'email' existe na planilha
         colunas_validas = ['email', 'Email', 'E-mail', 'EMAIL']
         coluna_email = None
 
